@@ -7,8 +7,11 @@ SCREEN_WIDTH = 800
 SCREEN_HEIGHT = int(SCREEN_WIDTH * 0.8)
 
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-game_name = "Platformer"
+game_name = "Forgotten Origins"
 pygame.display.set_caption(game_name)
+
+img = pygame.image.load("assets/bg/1.jpg")
+resize_img = pygame.transform.scale(img, (800, 640))
 
 # Define player action variables
 moving_left = False
@@ -27,7 +30,8 @@ RED = (255, 0, 0)
 
 
 def draw_bg():
-    screen.fill(bg)
+    screen.blit(resize_img, (0, -160))
+    # screen.fill(bg)
     # pygame.draw.line(screen, RED, (0, 300), (SCREEN_WIDTH, 300))
 
 
