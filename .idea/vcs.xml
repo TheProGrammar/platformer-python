@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python Projects/analog-clock/analog-clock-python" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python Projects/platformer-python" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python Projects/sorting-algorithm-python" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python Projects/the-pong-python" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python Projects/the-snake-python" vcs="Git" />
+  </component>
+</project>
